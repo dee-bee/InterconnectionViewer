@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"></meta>
+<meta charset="utf-8"></meta>
+<title>Force based label placement</title>
+
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"></link>
+
+<script type="text/javascript" src="jquery-1.7.2.js"></script>
+<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+
+<script type="text/javascript"
+	src="d3.v2.js"></script>
+<script type="text/javascript" src="FileSaver.js"></script>
+<script type="text/javascript" src="svg-pan-zoom.js"></script>
+
+<link href="Force.css" rel="stylesheet" type="text/css"></link>
+
+<script type="text/javascript" src="packages.js"></script>
+<script type="text/javascript" src="d3.layout.js"></script>
+<script type="text/javascript" src="Force.js"></script>
+
+</head>
+<body class="no_select">
+
+<div id="inputText"></div>
+
+<div id="leftPanel">
+	<div id="infoPanel"></div>
+	<div id="savePanel">
+		<div>Load Diagram: <input type="file" id="file-input" onchange="readSingleFile(event)" value="Load Diagram"></input></div>
+		<div>Save Diagram: <input type="button" onclick="saveDiagram()" value="Save Diagram"></input></div>
+		<div id="sliderLabel">Slide to zoom</div>
+		<div id="slider"></div>
+	</div>
+</div>
+<div id="diagramContainer" onwheel="svgWheel(event)" onmouseout="svgMouseOut()" onmousemove="svgMouseMove(event)" onmousedown="svgMouseDown(event)"  onmouseup="svgMouseUp(event)"></div>
+
+<div id="snippets">
+	<div id="linearGradient_snippet">
+		<linearGradient id="grad1" x1="0%" x2="100%" y1="0%" y2="0%" >
+		  <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1"></stop>
+		  <stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity:1"></stop>
+		</linearGradient>
+	</div>
+</div>
+
+</body>
+
+</html>

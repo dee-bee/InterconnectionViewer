@@ -1,0 +1,451 @@
+<svg width="960" height="500">
+	<line class="link" x1="65.79413468786117" y1="147.41456728049056"
+		x2="65.79413468786117" y2="147.41456728049056"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="679.63209099468" y1="190.80427833270207"
+		x2="721.0694890558993" y2="169.0394722181208"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="679.63209099468" y1="190.80427833270207"
+		x2="655.9294573349343" y2="117.8356865217261"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="721.0694890558993" y1="169.0394722181208"
+		x2="655.9294573349343" y2="117.8356865217261"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="655.9294573349343" y1="117.8356865217261"
+		x2="380.6987243622577" y2="127.48354102170404"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="655.9294573349343" y1="117.8356865217261"
+		x2="655.9294573349343" y2="117.8356865217261"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="655.9294573349343" y1="117.8356865217261"
+		x2="522.724643546802" y2="267.9896191199674"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="655.9294573349343" y1="117.8356865217261"
+		x2="293.5224752385395" y2="15.509825881476104"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="655.9294573349343" y1="117.8356865217261"
+		x2="385.7682580845004" y2="56.78682490344005"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="655.9294573349343" y1="117.8356865217261"
+		x2="204.52537839164546" y2="63.77891456849949"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="655.9294573349343" y1="117.8356865217261"
+		x2="342.17782106179726" y2="308.8207569322822"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="655.9294573349343" y1="117.8356865217261"
+		x2="476.72266612146893" y2="177.4038462426416"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="655.9294573349343" y1="117.8356865217261"
+		x2="531.0600746847877" y2="389.39309836626126"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="655.9294573349343" y1="117.8356865217261"
+		x2="514.645350135887" y2="46.21671554929449"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="360.63678145443635" y1="161.04624437408881"
+		x2="655.9294573349343" y2="117.8356865217261"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="360.63678145443635" y1="161.04624437408881"
+		x2="360.63678145443635" y2="161.04624437408881"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="360.63678145443635" y1="161.04624437408881"
+		x2="385.7682580845004" y2="56.78682490344005"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="360.63678145443635" y1="161.04624437408881"
+		x2="342.17782106179726" y2="308.8207569322822"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="360.63678145443635" y1="161.04624437408881"
+		x2="303.2558904427361" y2="368.04059709656383"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="360.63678145443635" y1="161.04624437408881"
+		x2="476.72266612146893" y2="177.4038462426416"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="360.63678145443635" y1="161.04624437408881"
+		x2="600.0115046761292" y2="366.86098520733066"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="385.7682580845004" y1="56.78682490344005"
+		x2="385.7682580845004" y2="56.78682490344005"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="385.7682580845004" y1="56.78682490344005"
+		x2="476.72266612146893" y2="177.4038462426416"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="476.72266612146893" y1="177.4038462426416"
+		x2="186.17547105965025" y2="377.59851785311116"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="476.72266612146893" y1="177.4038462426416"
+		x2="476.72266612146893" y2="177.4038462426416"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="476.72266612146893" y1="177.4038462426416"
+		x2="385.7682580845004" y2="56.78682490344005"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="476.72266612146893" y1="177.4038462426416"
+		x2="319.19454062339366" y2="412.71287007693854"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="476.72266612146893" y1="177.4038462426416"
+		x2="33.19435624919174" y2="410.3429823470463"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="476.72266612146893" y1="177.4038462426416"
+		x2="522.724643546802" y2="267.9896191199674"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="476.72266612146893" y1="177.4038462426416"
+		x2="655.9294573349343" y2="117.8356865217261"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="476.72266612146893" y1="177.4038462426416"
+		x2="360.63678145443635" y2="161.04624437408881"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="476.72266612146893" y1="177.4038462426416"
+		x2="531.0600746847877" y2="389.39309836626126"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="476.72266612146893" y1="177.4038462426416"
+		x2="380.6987243622577" y2="127.48354102170404"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="476.72266612146893" y1="177.4038462426416"
+		x2="495.51323897226143" y2="11.441012657175236"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="476.72266612146893" y1="177.4038462426416"
+		x2="687.8922121994888" y2="389.21418758920004"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="476.72266612146893" y1="177.4038462426416"
+		x2="204.52537839164546" y2="63.77891456849949"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="600.0115046761292" y1="366.86098520733066"
+		x2="476.72266612146893" y2="177.4038462426416"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="600.0115046761292" y1="366.86098520733066"
+		x2="655.9294573349343" y2="117.8356865217261"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="600.0115046761292" y1="366.86098520733066"
+		x2="204.52537839164546" y2="63.77891456849949"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="600.0115046761292" y1="366.86098520733066"
+		x2="600.0115046761292" y2="366.86098520733066"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="600.0115046761292" y1="366.86098520733066"
+		x2="360.63678145443635" y2="161.04624437408881"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="600.0115046761292" y1="366.86098520733066"
+		x2="522.724643546802" y2="267.9896191199674"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="522.724643546802" y1="267.9896191199674"
+		x2="522.724643546802" y2="267.9896191199674"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="522.724643546802" y1="267.9896191199674"
+		x2="65.79413468786117" y2="147.41456728049056"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="85.75120212079099" y1="288.08034744797885"
+		x2="385.7682580845004" y2="56.78682490344005"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="85.75120212079099" y1="288.08034744797885"
+		x2="476.72266612146893" y2="177.4038462426416"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="85.75120212079099" y1="288.08034744797885"
+		x2="600.0115046761292" y2="366.86098520733066"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="85.75120212079099" y1="288.08034744797885"
+		x2="360.63678145443635" y2="161.04624437408881"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="85.75120212079099" y1="288.08034744797885"
+		x2="342.17782106179726" y2="308.8207569322822"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="654.3085971208366" y1="9.43721158974546"
+		x2="654.3085971208366" y2="9.43721158974546"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="380.6987243622577" y1="127.48354102170404"
+		x2="360.63678145443635" y2="161.04624437408881"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="380.6987243622577" y1="127.48354102170404"
+		x2="380.6987243622577" y2="127.48354102170404"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="380.6987243622577" y1="127.48354102170404"
+		x2="385.7682580845004" y2="56.78682490344005"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="293.5224752385395" y1="15.509825881476104"
+		x2="293.5224752385395" y2="15.509825881476104"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="293.5224752385395" y1="15.509825881476104"
+		x2="655.9294573349343" y2="117.8356865217261"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="293.5224752385395" y1="15.509825881476104"
+		x2="514.645350135887" y2="46.21671554929449"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="204.52537839164546" y1="63.77891456849949"
+		x2="476.72266612146893" y2="177.4038462426416"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="204.52537839164546" y1="63.77891456849949"
+		x2="655.9294573349343" y2="117.8356865217261"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="204.52537839164546" y1="63.77891456849949"
+		x2="495.51323897226143" y2="11.441012657175236"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="204.52537839164546" y1="63.77891456849949"
+		x2="380.6987243622577" y2="127.48354102170404"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="204.52537839164546" y1="63.77891456849949"
+		x2="204.52537839164546" y2="63.77891456849949"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="204.52537839164546" y1="63.77891456849949"
+		x2="293.5224752385395" y2="15.509825881476104"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="531.0600746847877" y1="389.39309836626126"
+		x2="303.2558904427361" y2="368.04059709656383"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="531.0600746847877" y1="389.39309836626126"
+		x2="360.63678145443635" y2="161.04624437408881"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="531.0600746847877" y1="389.39309836626126"
+		x2="380.6987243622577" y2="127.48354102170404"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="531.0600746847877" y1="389.39309836626126"
+		x2="531.0600746847877" y2="389.39309836626126"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="531.0600746847877" y1="389.39309836626126"
+		x2="85.75120212079099" y2="288.08034744797885"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="531.0600746847877" y1="389.39309836626126"
+		x2="600.0115046761292" y2="366.86098520733066"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="531.0600746847877" y1="389.39309836626126"
+		x2="342.17782106179726" y2="308.8207569322822"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="531.0600746847877" y1="389.39309836626126"
+		x2="476.72266612146893" y2="177.4038462426416"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="514.645350135887" y1="46.21671554929449"
+		x2="380.6987243622577" y2="127.48354102170404"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="514.645350135887" y1="46.21671554929449"
+		x2="655.9294573349343" y2="117.8356865217261"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="495.51323897226143" y1="11.441012657175236"
+		x2="380.6987243622577" y2="127.48354102170404"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="495.51323897226143" y1="11.441012657175236"
+		x2="495.51323897226143" y2="11.441012657175236"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="495.51323897226143" y1="11.441012657175236"
+		x2="476.72266612146893" y2="177.4038462426416"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="495.51323897226143" y1="11.441012657175236"
+		x2="293.5224752385395" y2="15.509825881476104"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="495.51323897226143" y1="11.441012657175236"
+		x2="655.9294573349343" y2="117.8356865217261"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="638.7370978179034" y1="214.00978716758186"
+		x2="476.72266612146893" y2="177.4038462426416"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="638.7370978179034" y1="214.00978716758186"
+		x2="638.7370978179034" y2="214.00978716758186"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="638.7370978179034" y1="214.00978716758186"
+		x2="687.8922121994888" y2="389.21418758920004"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="638.7370978179034" y1="214.00978716758186"
+		x2="531.0600746847877" y2="389.39309836626126"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="638.7370978179034" y1="214.00978716758186"
+		x2="655.9294573349343" y2="117.8356865217261"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="687.8922121994888" y1="389.21418758920004"
+		x2="380.6987243622577" y2="127.48354102170404"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="687.8922121994888" y1="389.21418758920004"
+		x2="687.8922121994888" y2="389.21418758920004"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="687.8922121994888" y1="389.21418758920004"
+		x2="655.9294573349343" y2="117.8356865217261"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="687.8922121994888" y1="389.21418758920004"
+		x2="721.0694890558993" y2="169.0394722181208"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="687.8922121994888" y1="389.21418758920004"
+		x2="514.645350135887" y2="46.21671554929449"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="687.8922121994888" y1="389.21418758920004"
+		x2="600.0115046761292" y2="366.86098520733066"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="687.8922121994888" y1="389.21418758920004"
+		x2="385.7682580845004" y2="56.78682490344005"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="654.0591466085641" y1="48.81238865912661"
+		x2="654.0591466085641" y2="48.81238865912661"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="33.19435624919174" y1="410.3429823470463"
+		x2="33.19435624919174" y2="410.3429823470463"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="33.19435624919174" y1="410.3429823470463"
+		x2="319.19454062339366" y2="412.71287007693854"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="33.19435624919174" y1="410.3429823470463"
+		x2="186.17547105965025" y2="377.59851785311116"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<line class="link" x1="653.9632372109461" y1="30.301605803065627"
+		x2="653.9632372109461" y2="30.301605803065627"
+		style="stroke: rgb(204, 204, 204);"></line>
+	<g class="node"
+		transform="translate(65.79413468786117,147.41456728049056)">
+	<image class="circle" xmlns:xlink="http://www.w3.org/1999/xlink"
+		xlink:href="https://github.com/favicon.ico" x="-8px" y="-8px"
+		width="16px" height="16px"></image>
+	<text class="nodetext" dx="12" dy=".35em">readline-complete_c</text></g>
+	<g class="node"
+		transform="translate(654.1868874141509,67.36320508984412)">
+	<image class="circle" xmlns:xlink="http://www.w3.org/1999/xlink"
+		xlink:href="https://github.com/favicon.ico" x="-8px" y="-8px"
+		width="16px" height="16px"></image>
+	<text class="nodetext" dx="12" dy=".35em">readline-editline_h</text></g>
+	<g class="node"
+		transform="translate(654.2368598831811,87.76639941948321)">
+	<image class="circle" xmlns:xlink="http://www.w3.org/1999/xlink"
+		xlink:href="https://github.com/favicon.ico" x="-8px" y="-8px"
+		width="16px" height="16px"></image>
+	<text class="nodetext" dx="12" dy=".35em">readline-sysunix_c</text></g>
+	<g class="node"
+		transform="translate(679.63209099468,190.80427833270207)">
+	<image class="circle" xmlns:xlink="http://www.w3.org/1999/xlink"
+		xlink:href="https://github.com/favicon.ico" x="-8px" y="-8px"
+		width="16px" height="16px"></image>
+	<text class="nodetext" dx="12" dy=".35em">src-checkrom_c</text></g>
+	<g class="node"
+		transform="translate(721.0694890558993,169.0394722181208)">
+	<image class="circle" xmlns:xlink="http://www.w3.org/1999/xlink"
+		xlink:href="https://github.com/favicon.ico" x="-8px" y="-8px"
+		width="16px" height="16px"></image>
+	<text class="nodetext" dx="12" dy=".35em">src-romio_c</text></g>
+	<g class="node"
+		transform="translate(655.9294573349343,117.8356865217261)">
+	<image class="circle" xmlns:xlink="http://www.w3.org/1999/xlink"
+		xlink:href="https://github.com/favicon.ico" x="-8px" y="-8px"
+		width="16px" height="16px"></image>
+	<text class="nodetext" dx="12" dy=".35em">src-debugger_c</text></g>
+	<g class="node"
+		transform="translate(360.63678145443635,161.04624437408881)">
+	<image class="circle" xmlns:xlink="http://www.w3.org/1999/xlink"
+		xlink:href="https://github.com/favicon.ico" x="-8px" y="-8px"
+		width="16px" height="16px"></image>
+	<text class="nodetext" dx="12" dy=".35em">src-actions_c</text></g>
+	<g class="node"
+		transform="translate(385.7682580845004,56.78682490344005)">
+	<image class="circle" xmlns:xlink="http://www.w3.org/1999/xlink"
+		xlink:href="https://github.com/favicon.ico" x="-8px" y="-8px"
+		width="16px" height="16px"></image>
+	<text class="nodetext" dx="12" dy=".35em">src-lcd_c</text></g>
+	<g class="node"
+		transform="translate(342.17782106179726,308.8207569322822)">
+	<image class="circle" xmlns:xlink="http://www.w3.org/1999/xlink"
+		xlink:href="https://github.com/favicon.ico" x="-8px" y="-8px"
+		width="16px" height="16px"></image>
+	<text class="nodetext" dx="12" dy=".35em">src-timer_c</text></g>
+	<g class="node"
+		transform="translate(303.2558904427361,368.04059709656383)">
+	<image class="circle" xmlns:xlink="http://www.w3.org/1999/xlink"
+		xlink:href="https://github.com/favicon.ico" x="-8px" y="-8px"
+		width="16px" height="16px"></image>
+	<text class="nodetext" dx="12" dy=".35em">src-register_c</text></g>
+	<g class="node"
+		transform="translate(476.72266612146893,177.4038462426416)">
+	<image class="circle" xmlns:xlink="http://www.w3.org/1999/xlink"
+		xlink:href="https://github.com/favicon.ico" x="-8px" y="-8px"
+		width="16px" height="16px"></image>
+	<text class="nodetext" dx="12" dy=".35em">src-x48_x11_c</text></g>
+	<g class="node"
+		transform="translate(600.0115046761292,366.86098520733066)">
+	<image class="circle" xmlns:xlink="http://www.w3.org/1999/xlink"
+		xlink:href="https://github.com/favicon.ico" x="-8px" y="-8px"
+		width="16px" height="16px"></image>
+	<text class="nodetext" dx="12" dy=".35em">src-serial_c</text></g>
+	<g class="node"
+		transform="translate(522.724643546802,267.9896191199674)">
+	<image class="circle" xmlns:xlink="http://www.w3.org/1999/xlink"
+		xlink:href="https://github.com/favicon.ico" x="-8px" y="-8px"
+		width="16px" height="16px"></image>
+	<text class="nodetext" dx="12" dy=".35em">readline-editline_c</text></g>
+	<g class="node"
+		transform="translate(85.75120212079099,288.08034744797885)">
+	<image class="circle" xmlns:xlink="http://www.w3.org/1999/xlink"
+		xlink:href="https://github.com/favicon.ico" x="-8px" y="-8px"
+		width="16px" height="16px"></image>
+	<text class="nodetext" dx="12" dy=".35em">src-device_c</text></g>
+	<g class="node"
+		transform="translate(654.3085971208366,9.43721158974546)">
+	<image class="circle" xmlns:xlink="http://www.w3.org/1999/xlink"
+		xlink:href="https://github.com/favicon.ico" x="-8px" y="-8px"
+		width="16px" height="16px"></image>
+	<text class="nodetext" dx="12" dy=".35em">src-dump2rom_c</text></g>
+	<g class="node"
+		transform="translate(380.6987243622577,127.48354102170404)">
+	<image class="circle" xmlns:xlink="http://www.w3.org/1999/xlink"
+		xlink:href="https://github.com/favicon.ico" x="-8px" y="-8px"
+		width="16px" height="16px"></image>
+	<text class="nodetext" dx="12" dy=".35em">src-memory_c</text></g>
+	<g class="node"
+		transform="translate(293.5224752385395,15.509825881476104)">
+	<image class="circle" xmlns:xlink="http://www.w3.org/1999/xlink"
+		xlink:href="https://github.com/favicon.ico" x="-8px" y="-8px"
+		width="16px" height="16px"></image>
+	<text class="nodetext" dx="12" dy=".35em">src-disasm_c</text></g>
+	<g class="node"
+		transform="translate(204.52537839164546,63.77891456849949)">
+	<image class="circle" xmlns:xlink="http://www.w3.org/1999/xlink"
+		xlink:href="https://github.com/favicon.ico" x="-8px" y="-8px"
+		width="16px" height="16px"></image>
+	<text class="nodetext" dx="12" dy=".35em">src-gui_c</text></g>
+	<g class="node"
+		transform="translate(531.0600746847877,389.39309836626126)">
+	<image class="circle" xmlns:xlink="http://www.w3.org/1999/xlink"
+		xlink:href="https://github.com/favicon.ico" x="-8px" y="-8px"
+		width="16px" height="16px"></image>
+	<text class="nodetext" dx="12" dy=".35em">src-emulate_c</text></g>
+	<g class="node"
+		transform="translate(514.645350135887,46.21671554929449)">
+	<image class="circle" xmlns:xlink="http://www.w3.org/1999/xlink"
+		xlink:href="https://github.com/favicon.ico" x="-8px" y="-8px"
+		width="16px" height="16px"></image>
+	<text class="nodetext" dx="12" dy=".35em">src-entriesio_c</text></g>
+	<g class="node"
+		transform="translate(495.51323897226143,11.441012657175236)">
+	<image class="circle" xmlns:xlink="http://www.w3.org/1999/xlink"
+		xlink:href="https://github.com/favicon.ico" x="-8px" y="-8px"
+		width="16px" height="16px"></image>
+	<text class="nodetext" dx="12" dy=".35em">src-rpl_c</text></g>
+	<g class="node"
+		transform="translate(638.7370978179034,214.00978716758186)">
+	<image class="circle" xmlns:xlink="http://www.w3.org/1999/xlink"
+		xlink:href="https://github.com/favicon.ico" x="-8px" y="-8px"
+		width="16px" height="16px"></image>
+	<text class="nodetext" dx="12" dy=".35em">src-main_c</text></g>
+	<g class="node"
+		transform="translate(687.8922121994888,389.21418758920004)">
+	<image class="circle" xmlns:xlink="http://www.w3.org/1999/xlink"
+		xlink:href="https://github.com/favicon.ico" x="-8px" y="-8px"
+		width="16px" height="16px"></image>
+	<text class="nodetext" dx="12" dy=".35em">src-init_c</text></g>
+	<g class="node"
+		transform="translate(654.0591466085641,48.81238865912661)">
+	<image class="circle" xmlns:xlink="http://www.w3.org/1999/xlink"
+		xlink:href="https://github.com/favicon.ico" x="-8px" y="-8px"
+		width="16px" height="16px"></image>
+	<text class="nodetext" dx="12" dy=".35em">src-mkcard_c</text></g>
+	<g class="node"
+		transform="translate(33.19435624919174,410.3429823470463)">
+	<image class="circle" xmlns:xlink="http://www.w3.org/1999/xlink"
+		xlink:href="https://github.com/favicon.ico" x="-8px" y="-8px"
+		width="16px" height="16px"></image>
+	<text class="nodetext" dx="12" dy=".35em">src-resources_c</text></g>
+	<g class="node"
+		transform="translate(319.19454062339366,412.71287007693854)">
+	<image class="circle" xmlns:xlink="http://www.w3.org/1999/xlink"
+		xlink:href="https://github.com/favicon.ico" x="-8px" y="-8px"
+		width="16px" height="16px"></image>
+	<text class="nodetext" dx="12" dy=".35em">src-options_c</text></g>
+	<g class="node"
+		transform="translate(186.17547105965025,377.59851785311116)">
+	<image class="circle" xmlns:xlink="http://www.w3.org/1999/xlink"
+		xlink:href="https://github.com/favicon.ico" x="-8px" y="-8px"
+		width="16px" height="16px"></image>
+	<text class="nodetext" dx="12" dy=".35em">src-errors_c</text></g>
+	<g class="node"
+		transform="translate(653.9632372109461,30.301605803065627)">
+	<image class="circle" xmlns:xlink="http://www.w3.org/1999/xlink"
+		xlink:href="https://github.com/favicon.ico" x="-8px" y="-8px"
+		width="16px" height="16px"></image>
+	<text class="nodetext" dx="12" dy=".35em">test-popup_c</text></g></svg>

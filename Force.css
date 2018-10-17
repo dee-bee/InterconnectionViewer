@@ -1,0 +1,143 @@
+line:hover{
+    /* stroke:yellow !important; */
+    stroke-width: 30px !important;
+}
+
+line{
+    /*stroke: url(#grad1);*/
+    /* stroke: teal; */
+}
+
+text:hover{
+    fill:blue;
+}
+
+div#infoPanel{
+    /* display: inline-block; */
+    /* position: fixed; */
+    /* top: 0px; */
+    height: calc(100% - 150px);
+    overflow: auto;
+    width: 100%;
+    /* max-width: 30%; */
+    clear: both;
+    float: left;
+}
+
+#diagramContainer{
+    background-color: #eef5ee;
+    overflow: scroll;
+    position: fixed;
+    left: 310px;
+    /* display:inline-block; */
+    width: calc(100% - 320px);
+    height: calc(100% - 15px);
+}
+
+body {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#diagramContainer > svg{
+    /* zoom: .20; */
+    -moz-transform: scale(.2);
+    -moz-transform-origin: 0 0;
+}
+
+.type_0{
+    color:red;
+}
+
+.type_1{
+    color:blue;
+}
+
+.functionItem > * {
+    display: inline-block;
+}
+
+.functionItem {
+    white-space: nowrap;
+}
+
+.nodeType_0{
+    fill:red;
+}
+
+circle{
+    fill:grey;
+}
+
+circle.nodeType_0{
+    fill:red;
+}
+
+div#inputText {
+    display: none;
+}
+
+div#savePanel {
+    float: left;
+}
+
+div#leftPanel {
+    position: fixed;
+    top: 0px;
+    height: 100%;
+    width: 300px;
+    /* overflow: auto; */
+    background-color: #f1f1f1;
+}
+
+
+div#savePanel {
+    padding-top: 10px;
+    width: 100%;
+}
+
+div#savePanel > div:not([id='slider']) {
+    padding-top: 3px;
+}
+
+div#slider {}
+
+div#slider {
+    margin-top: 9px;
+}
+
+div#sliderLabel {
+    text-align: center;
+    margin-top: 7px;
+}
+
+svg a[from_calls=false] {
+    fill: #0043ff;
+    font-weight: bold;
+    stroke-width: 1px;
+    stroke: black;
+    font-size: 22px;
+}
+
+text.text_node[two_way='true'] {
+    fill: #e8712b;
+    font-size: larger;
+    font-weight: bold;
+    stroke: black;
+}
+
+div#snippets {
+    display: none;
+}
+
+body[svg_dragging="true"] #diagramContainer{cursor: move;}
+
+.no_select {
+    cursor: default;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
