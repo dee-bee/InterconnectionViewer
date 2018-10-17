@@ -15,7 +15,7 @@ var flareImportJson
 
 
 $( document ).ready(function() {
-  d3.json("flare-imports.json", parseJson )
+  d3.json("data/flare-imports.json", parseJson )
 
   $("#slider").slider({
       value: 20,
