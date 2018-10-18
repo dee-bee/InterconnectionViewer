@@ -11,11 +11,30 @@ var force
 
 var flareImportJson
 //Load the json data file
+var defaultImportFilename = "data/x48-imports.json"
+var importFilename
 
+function getUrlParam(parameter, defaultvalue){
+    var urlparameter = defaultvalue;
+    if(window.location.href.indexOf(parameter) > -1){
+        urlparameter = getUrlVars()[parameter];
+        }
+    return urlparameter;
+}
+
+function getUrlVars() {
+    var vars = {};
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+        vars[key] = value;
+    });
+    return vars;
+}
 
 
 $( document ).ready(function() {
-  d3.json("data/flare-imports.json", parseJson )
+  importFilename = getUrlParam('dataFile',defaultImportFilename);
+
+  d3.json(importFilename, parseJson )
 
   $("#slider").slider({
       value: 20,

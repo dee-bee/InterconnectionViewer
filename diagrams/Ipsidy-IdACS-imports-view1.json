@@ -1,0 +1,1882 @@
+[
+  {
+    "name": "com.idacs.weblib.UpdateRoutine",
+    "size": 7000,
+    "imports": [
+      "com.idgs.dbobjects.DbObject"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idacs.weblib.UpdateRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.DbObject",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "",
+    "importsWeights": [
+      1
+    ],
+    "x": 1284,
+    "y": 1757,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.dbobjects.DbObject",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "",
+    "importsWeights": [],
+    "x": 1204.1567715233737,
+    "y": 1853.7177149220724,
+    "fixed": true
+  },
+  {
+    "name": "com.idacs.weblib.DBr",
+    "size": 7000,
+    "imports": [
+      "com.idgs.admin.SiteLogic",
+      "com.idgs.dbobjects.DbGroupEntity",
+      "com.idgs.dbobjects.DbObject",
+      "com.idgs.dbobjects.EntityRecordEntry",
+      "com.idgs.dbobjects.EntityRelation",
+      "com.idgs.dbobjects.SecurityGroup",
+      "com.idgs.dbobjects.Site",
+      "com.idgs.dbobjects.Transaction",
+      "com.idgs.dbobjects.User",
+      "com.idgs.dbobjects.UserGroup",
+      "com.idgs.mt2.CommonRoutineMT2",
+      "com.idgs.binarytree.BinaryTree"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idacs.weblib.DBr",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.admin.SiteLogic",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idacs.weblib.DBr",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.DbGroupEntity",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idacs.weblib.DBr",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.DbObject",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idacs.weblib.DBr",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.EntityRecordEntry",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idacs.weblib.DBr",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.EntityRelation",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idacs.weblib.DBr",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.SecurityGroup",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idacs.weblib.DBr",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.Site",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idacs.weblib.DBr",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.Transaction",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idacs.weblib.DBr",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.User",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idacs.weblib.DBr",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.UserGroup",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idacs.weblib.DBr",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.mt2.CommonRoutineMT2",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idacs.weblib.DBr",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.binarytree.BinaryTree",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "",
+    "importsWeights": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "x": 876.5708321446547,
+    "y": 1796.290514891958,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.admin.SiteLogic",
+    "size": 7000,
+    "imports": [
+      "com.idgs.dbobjects.AccessPointGroup",
+      "com.idgs.dbobjects.Beacon",
+      "com.idgs.dbobjects.EntityRecordEntry",
+      "com.idgs.dbobjects.EntityRelation",
+      "com.idgs.dbobjects.SecurityGroup",
+      "com.idgs.dbobjects.Site",
+      "com.idgs.dbobjects.User",
+      "com.idgs.dbobjects.UserGroup",
+      "com.idgs.mt2.CommonRoutineMT2",
+      "com.idgs.mt2.IDCompleteOps27",
+      "com.idgs.mt2.UnlockRoutineMT2"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.admin.SiteLogic",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.AccessPointGroup",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.SiteLogic",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.Beacon",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.SiteLogic",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.EntityRecordEntry",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.SiteLogic",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.EntityRelation",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.SiteLogic",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.SecurityGroup",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.SiteLogic",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.Site",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.SiteLogic",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.User",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.SiteLogic",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.UserGroup",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.SiteLogic",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.mt2.CommonRoutineMT2",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.SiteLogic",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.mt2.IDCompleteOps27",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.SiteLogic",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.mt2.UnlockRoutineMT2",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "",
+    "importsWeights": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "x": 1980.4148330621183,
+    "y": 964.2177395754629,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.dbobjects.DbGroupEntity",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "",
+    "importsWeights": [],
+    "x": 439.2218047796458,
+    "y": 1526.1926488205218,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.dbobjects.EntityRecordEntry",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "",
+    "importsWeights": [],
+    "x": 1260.590792195163,
+    "y": 849.4515133788253,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.dbobjects.EntityRelation",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "",
+    "importsWeights": [],
+    "x": 1208.333098125263,
+    "y": 964.4760056986875,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.dbobjects.SecurityGroup",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "",
+    "importsWeights": [],
+    "x": 1265.0376345272957,
+    "y": 1181.4561321440544,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.dbobjects.Site",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "",
+    "importsWeights": [],
+    "x": 336.1564888308816,
+    "y": 327.80384164089924,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.dbobjects.Transaction",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "",
+    "importsWeights": [],
+    "x": 1792.0343473029566,
+    "y": 741.3962761314729,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.dbobjects.User",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "",
+    "importsWeights": [],
+    "x": 573.2373045562726,
+    "y": 1114.8738176075524,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.dbobjects.UserGroup",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "",
+    "importsWeights": [],
+    "x": 1125.1544141205904,
+    "y": 1029.9927341061002,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.mt2.CommonRoutineMT2",
+    "size": 7000,
+    "imports": [
+      "com.idgs.dbobjects.User",
+      "com.idgs.dbobjects.Site",
+      "com.idgs.dbobjects.AccessPoint",
+      "com.idgs.dbobjects.MixedGroup",
+      "com.idgs.dbobjects.Transaction",
+      "com.idgs.dbobjects.EntityRelation",
+      "com.idgs.dbobjects.DbGroupEntity",
+      "com.idgs.dbobjects.Beacon",
+      "com.idgs.dbobjects.LokPassType",
+      "com.idgs.dbobjects.DbObject",
+      "com.idgs.dbobjects.userNDA",
+      "com.idgs.dbobjects.UserGroup",
+      "com.idgs.dbobjects.AccessPointGroup",
+      "com.idgs.dbobjects.EntityRecordEntry",
+      "com.idgs.dbobjects.LokPass",
+      "com.idgs.admin.UserRoutine",
+      "com.idgs.mt2.v26routine.BrivoMT",
+      "com.idgs.mt2.v27routine.IdAcs27Routine",
+      "com.idgs.qr.QRCode"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.mt2.CommonRoutineMT2",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.User",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonRoutineMT2",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.Site",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonRoutineMT2",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.AccessPoint",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonRoutineMT2",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.MixedGroup",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonRoutineMT2",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.Transaction",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonRoutineMT2",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.EntityRelation",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonRoutineMT2",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.DbGroupEntity",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonRoutineMT2",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.Beacon",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonRoutineMT2",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.LokPassType",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonRoutineMT2",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.DbObject",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonRoutineMT2",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.userNDA",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonRoutineMT2",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.UserGroup",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonRoutineMT2",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.AccessPointGroup",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonRoutineMT2",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.EntityRecordEntry",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonRoutineMT2",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.LokPass",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonRoutineMT2",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.admin.UserRoutine",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonRoutineMT2",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.mt2.v26routine.BrivoMT",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonRoutineMT2",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.mt2.v27routine.IdAcs27Routine",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonRoutineMT2",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.qr.QRCode",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "",
+    "importsWeights": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "x": 762.470407725645,
+    "y": 434.17235034933503,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.binarytree.BinaryTree",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "",
+    "importsWeights": [],
+    "x": 526.5323700313209,
+    "y": 1899.8046469974565,
+    "fixed": true
+  },
+  {
+    "name": "com.idacs.weblib.Common",
+    "size": 7000,
+    "imports": [
+      "com.idgs.dbobjects.ApiKey",
+      "com.idgs.dbobjects.LokPass"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idacs.weblib.Common",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.ApiKey",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idacs.weblib.Common",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.LokPass",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "",
+    "importsWeights": [
+      1,
+      1
+    ],
+    "x": 1729.8327062683693,
+    "y": 290.29091487351207,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.dbobjects.ApiKey",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "",
+    "importsWeights": [],
+    "x": 1712.717874561678,
+    "y": 242.62562958517435,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.dbobjects.LokPass",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "",
+    "importsWeights": [],
+    "x": 1749.2373066681826,
+    "y": 330.10304333974545,
+    "fixed": true
+  },
+  {
+    "name": "com.idacs.weblib.UserRights",
+    "size": 7000,
+    "imports": [
+      "com.idgs.admin.SiteLogic",
+      "com.idgs.dbobjects.EntityRecordEntry",
+      "com.idgs.dbobjects.EntityRelation",
+      "com.idgs.dbobjects.Site",
+      "com.idgs.dbobjects.User"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idacs.weblib.UserRights",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.admin.SiteLogic",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idacs.weblib.UserRights",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.EntityRecordEntry",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idacs.weblib.UserRights",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.EntityRelation",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idacs.weblib.UserRights",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.Site",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idacs.weblib.UserRights",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.User",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "",
+    "importsWeights": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "x": 412.0388968818406,
+    "y": 763.3911388642487,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.testmethods.Tests",
+    "size": 7000,
+    "imports": [
+      "com.idgs.dbobjects.User",
+      "com.idgs.dbobjects.Transaction"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.testmethods.Tests",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.User",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.testmethods.Tests",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.Transaction",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "",
+    "importsWeights": [
+      1,
+      1
+    ],
+    "x": 1393.546273307758,
+    "y": 1331.8160721078489,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.admin.AuthRequestsRoutine",
+    "size": 7000,
+    "imports": [
+      "com.idgs.dbobjects.EntityRelation",
+      "com.idgs.dbobjects.User",
+      "com.idgs.dbobjects.AccessPoint",
+      "com.idgs.dbobjects.Site",
+      "com.idgs.dbobjects.SecurityGroup",
+      "com.idgs.dbobjects.MixedGroup",
+      "com.idgs.dbobjects.Beacon",
+      "com.idgs.dbobjects.BeaconGroup",
+      "com.idgs.dbobjects.Transaction",
+      "com.idgs.dbobjects.UserGroup",
+      "com.idgs.dbobjects.TransactionStatus",
+      "com.idgs.dbobjects.EntityRecordEntry",
+      "com.idgs.mt2.CommonRoutineMT2",
+      "com.idgs.mt2.IDCompleteOps27"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.admin.AuthRequestsRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.EntityRelation",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.AuthRequestsRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.User",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.AuthRequestsRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.AccessPoint",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.AuthRequestsRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.Site",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.AuthRequestsRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.SecurityGroup",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.AuthRequestsRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.MixedGroup",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.AuthRequestsRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.Beacon",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.AuthRequestsRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.BeaconGroup",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.AuthRequestsRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.Transaction",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.AuthRequestsRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.UserGroup",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.AuthRequestsRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.TransactionStatus",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.AuthRequestsRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.EntityRecordEntry",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.AuthRequestsRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.mt2.CommonRoutineMT2",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.AuthRequestsRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.mt2.IDCompleteOps27",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "",
+    "importsWeights": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "x": 1073.9707442137549,
+    "y": 428.7139189488047,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.dbobjects.AccessPoint",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "",
+    "importsWeights": [],
+    "x": 1395.1643170437144,
+    "y": 199.62229846201365,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.dbobjects.MixedGroup",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "",
+    "importsWeights": [],
+    "x": 1219.55775972657,
+    "y": 157.6693658228486,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.dbobjects.Beacon",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "",
+    "importsWeights": [],
+    "x": 1493.3060750220448,
+    "y": 744.3664391864337,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.dbobjects.BeaconGroup",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "",
+    "importsWeights": [],
+    "x": 659.4828597805398,
+    "y": 269.5248742518885,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.dbobjects.TransactionStatus",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "",
+    "importsWeights": [],
+    "x": 835.8440651130252,
+    "y": 573.0456598744036,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.mt2.IDCompleteOps27",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "",
+    "importsWeights": [],
+    "x": 1594.4844126478115,
+    "y": 570.0897397624753,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.admin.AuthWrapper",
+    "size": 7000,
+    "imports": [
+      "com.idgs.mt2.v27routine.IdAcs27Routine",
+      "com.idgs.mt2.listroutine.ListUsersRoutine",
+      "com.idgs.mt2.CommonRoutineMT2",
+      "com.idgs.mt2.ListsNT",
+      "com.idgs.mt2.SiteType4Routine",
+      "com.idgs.mt2.CommonAdminRoutine",
+      "com.idgs.mt2.RevokeRoutine",
+      "com.idgs.dbobjects.DbGroupEntity",
+      "com.idgs.dbobjects.Site",
+      "com.idgs.dbobjects.User"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.admin.AuthWrapper",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.mt2.v27routine.IdAcs27Routine",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.AuthWrapper",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.mt2.listroutine.ListUsersRoutine",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.AuthWrapper",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.mt2.CommonRoutineMT2",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.AuthWrapper",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.mt2.ListsNT",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.AuthWrapper",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.mt2.SiteType4Routine",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.AuthWrapper",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.mt2.CommonAdminRoutine",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.AuthWrapper",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.mt2.RevokeRoutine",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.AuthWrapper",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.DbGroupEntity",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.AuthWrapper",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.Site",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.AuthWrapper",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.User",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "",
+    "importsWeights": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "x": 367.29391466444963,
+    "y": 1363.3382019668657,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.mt2.v27routine.IdAcs27Routine",
+    "size": 7000,
+    "imports": [
+      "com.idgs.dbobjects.EntityRelation",
+      "com.idgs.dbobjects.User",
+      "com.idgs.dbobjects.AccessPoint",
+      "com.idgs.dbobjects.Beacon",
+      "com.idgs.dbobjects.Transaction",
+      "com.idgs.dbobjects.TransactionStatus",
+      "com.idgs.dbobjects.EntityRecordEntry",
+      "com.idgs.mt2.IDCompleteOps27",
+      "com.idgs.qr.QRCode"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.mt2.v27routine.IdAcs27Routine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.EntityRelation",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.v27routine.IdAcs27Routine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.User",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.v27routine.IdAcs27Routine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.AccessPoint",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.v27routine.IdAcs27Routine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.Beacon",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.v27routine.IdAcs27Routine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.Transaction",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.v27routine.IdAcs27Routine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.TransactionStatus",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.v27routine.IdAcs27Routine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.EntityRecordEntry",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.v27routine.IdAcs27Routine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.mt2.IDCompleteOps27",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.v27routine.IdAcs27Routine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.qr.QRCode",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "",
+    "importsWeights": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "x": 1450.5699832940854,
+    "y": 676.3946500922657,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.mt2.listroutine.ListUsersRoutine",
+    "size": 7000,
+    "imports": [
+      "com.idgs.dbobjects.User"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.mt2.listroutine.ListUsersRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.User",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "",
+    "importsWeights": [
+      1
+    ],
+    "x": 290.7390688328354,
+    "y": 1042.2435225549439,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.mt2.ListsNT",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "",
+    "importsWeights": [],
+    "x": 271.16429689545004,
+    "y": 1407.1236912936058,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.mt2.SiteType4Routine",
+    "size": 7000,
+    "imports": [
+      "com.idgs.dbobjects.CustomerCategory",
+      "com.idgs.dbobjects.LokPassType",
+      "com.idgs.dbobjects.Site"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.mt2.SiteType4Routine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.CustomerCategory",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.SiteType4Routine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.LokPassType",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.SiteType4Routine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.Site",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "",
+    "importsWeights": [
+      1,
+      1,
+      1
+    ],
+    "x": 602.0960144960748,
+    "y": 1009.9235577706713,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.mt2.CommonAdminRoutine",
+    "size": 7000,
+    "imports": [
+      "com.idgs.admin.SiteLogic",
+      "com.idgs.dbobjects.AccessPoint",
+      "com.idgs.dbobjects.AccessPointGroup",
+      "com.idgs.dbobjects.Beacon",
+      "com.idgs.dbobjects.BeaconGroup",
+      "com.idgs.dbobjects.DbObject",
+      "com.idgs.dbobjects.EntityRecordEntry",
+      "com.idgs.dbobjects.EntityRelation",
+      "com.idgs.dbobjects.SecurityGroup",
+      "com.idgs.dbobjects.Site",
+      "com.idgs.dbobjects.Transaction",
+      "com.idgs.dbobjects.User",
+      "com.idgs.dbobjects.UserGroup",
+      "com.idgs.mt2.v27routine.IdAcs27Routine"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.mt2.CommonAdminRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.admin.SiteLogic",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonAdminRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.AccessPoint",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonAdminRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.AccessPointGroup",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonAdminRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.Beacon",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonAdminRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.BeaconGroup",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonAdminRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.DbObject",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonAdminRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.EntityRecordEntry",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonAdminRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.EntityRelation",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonAdminRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.SecurityGroup",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonAdminRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.Site",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonAdminRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.Transaction",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonAdminRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.User",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonAdminRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.UserGroup",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonAdminRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.mt2.v27routine.IdAcs27Routine",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "",
+    "importsWeights": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "x": 668.8883817596036,
+    "y": 861.8458978278418,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.mt2.RevokeRoutine",
+    "size": 7000,
+    "imports": [
+      "com.idgs.dbobjects.User"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.mt2.RevokeRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.User",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "",
+    "importsWeights": [
+      1
+    ],
+    "x": 255.2763759722259,
+    "y": 1147.4829173533558,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.admin.BrivoWrapper",
+    "size": 7000,
+    "imports": [
+      "com.idgs.dbobjects.Site"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.admin.BrivoWrapper",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.Site",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "",
+    "importsWeights": [
+      1
+    ],
+    "x": 296.23355204343056,
+    "y": 214.87086999402197,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.admin.BrivoRoutine",
+    "size": 7000,
+    "imports": [
+      "com.idgs.dbobjects.AccessPoint",
+      "com.idgs.dbobjects.AccessPointGroup",
+      "com.idgs.dbobjects.SecurityGroup",
+      "com.idgs.dbobjects.Site",
+      "com.idgs.dbobjects.User",
+      "com.idgs.dbobjects.UserGroup",
+      "com.idgs.mt2.CommonAdminRoutine",
+      "com.idgs.mt2.CommonRoutineMT2"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.admin.BrivoRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.AccessPoint",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.BrivoRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.AccessPointGroup",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.BrivoRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.SecurityGroup",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.BrivoRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.Site",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.BrivoRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.User",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.BrivoRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.UserGroup",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.BrivoRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.mt2.CommonAdminRoutine",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.BrivoRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.mt2.CommonRoutineMT2",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "",
+    "importsWeights": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "x": 583.4096260653598,
+    "y": 726.8407646969728,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.dbobjects.AccessPointGroup",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "",
+    "importsWeights": [],
+    "x": 1005.3372272670563,
+    "y": 714.0484055603386,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.mt2.UnlockRoutineMT2",
+    "size": 7000,
+    "imports": [
+      "com.idgs.dbobjects.*"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.mt2.UnlockRoutineMT2",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "",
+    "importsWeights": [
+      1
+    ],
+    "x": 2028.4515330736212,
+    "y": 1066.1190817732409,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.admin.UserRoutine",
+    "size": 7000,
+    "imports": [
+      "com.idgs.mt2.IDCompleteOps27",
+      "com.idgs.mt2.CommonRoutineMT2",
+      "com.idgs.dbobjects.EntityRecordEntry",
+      "com.idgs.dbobjects.EntityRelation",
+      "com.idgs.dbobjects.Site",
+      "com.idgs.dbobjects.User"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.admin.UserRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.mt2.IDCompleteOps27",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.UserRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.mt2.CommonRoutineMT2",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.UserRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.EntityRecordEntry",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.UserRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.EntityRelation",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.UserRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.Site",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.UserRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.User",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "",
+    "importsWeights": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "x": 571.9469112105278,
+    "y": 588.9687573337999,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.mt2.AuthThread",
+    "size": 7000,
+    "imports": [
+      "com.idgs.admin.BrivoRoutine",
+      "com.idgs.dbobjects.AccessPoint",
+      "com.idgs.dbobjects.LokPass",
+      "com.idgs.dbobjects.Transaction",
+      "com.idgs.dbobjects.User",
+      "com.idgs.dbobjects.userNDA"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.mt2.AuthThread",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.admin.BrivoRoutine",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.AuthThread",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.AccessPoint",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.AuthThread",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.LokPass",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.AuthThread",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.Transaction",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.AuthThread",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.User",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.AuthThread",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.userNDA",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "",
+    "importsWeights": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "x": 1764.0298893834554,
+    "y": 375.1484654820989,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.dbobjects.userNDA",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "",
+    "importsWeights": [],
+    "x": 1868.6744466729938,
+    "y": 478.1554544771882,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.dbobjects.CustomerCategory",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "",
+    "importsWeights": [],
+    "x": 330.7858204355582,
+    "y": 922.5622559777521,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.dbobjects.LokPassType",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "",
+    "importsWeights": [],
+    "x": 704.7271274986398,
+    "y": 965.7454814579066,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.dbobjects.*",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "",
+    "importsWeights": [],
+    "x": 2070.042204315976,
+    "y": 1149.0545104296307,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.mt2.BulkUserUploadWorker",
+    "size": 7000,
+    "imports": [
+      "com.idgs.dbobjects.Transaction",
+      "com.idgs.admin.SiteLogic"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.mt2.BulkUserUploadWorker",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.Transaction",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.BulkUserUploadWorker",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.admin.SiteLogic",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "",
+    "importsWeights": [
+      1,
+      1
+    ],
+    "x": 1970.789595106833,
+    "y": 785.4092810026266,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.qr.QRCode",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "",
+    "importsWeights": [],
+    "x": 957.5468894029843,
+    "y": 213.8216491690029,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.mt2.v27routine.Transaction27Authorization",
+    "size": 7000,
+    "imports": [
+      "com.idgs.dbobjects.Transaction",
+      "com.idgs.mt2.IDCompleteOps27"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.mt2.v27routine.Transaction27Authorization",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.dbobjects.Transaction",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.v27routine.Transaction27Authorization",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idgs.mt2.IDCompleteOps27",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "",
+    "importsWeights": [
+      1,
+      1
+    ],
+    "x": 1901.0176393605047,
+    "y": 548.8977211159786,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.mt2.v26routine.BrivoMT",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "",
+    "importsWeights": [],
+    "x": 806.4549673230488,
+    "y": 1431.9265308148247,
+    "fixed": true
+  }
+]
