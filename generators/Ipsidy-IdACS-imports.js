@@ -5,8 +5,12 @@ String.prototype.replaceAll = function(search, replacement) {
 
 var outputJSONStr = "" 
 outputObj = {}
+doxPrefix = ""
 
-function doIt(){
+function doIt(doxUrl, t_doxPrefix){
+    doxPrefix = t_doxPrefix
+    getDoxygenFilePaths(doxUrl)
+
     outputJSONStr = "" 
     outputObj = {}
 
@@ -102,10 +106,42 @@ function addNewNode(name){
     itemObj.fromTo = itemObjToFrom
 
     itemObj.url = ""
-
+    if(doxListObj[sourceName] != null){
+        itemObj.url = doxPrefix + doxListObj[name]
+        console.log(itemObj.url)
+    }
     outputObj[name] = itemObj   
 }
 
+
+currentPath = []
+doxListObj = {}
+
+function getDoxygenFilePaths(doxUrl){
+ $.get(doxUrl, function(data){
+    html = (new window.DOMParser()).parseFromString(data, "text/html")
+    trRows = $(html).find("tr[id^=row_")
+
+    for(tally=0; tally< trRows.length; tally++){
+        rowName = $(trRows[tally]).find(">.entry>a.el").text()
+        url = $(trRows[tally]).find(">.entry>a.el").attr("href")
+
+        rowArr = trRows[tally].id.split("_")
+        rowArr = rowArr.reverse()
+        rowArr.pop()
+        rowArr.reverse()
+
+        if(rowArr[rowArr.length - 1] == ""){rowArr.pop()}
+
+        while(currentPath.length >= rowArr.length)
+            currentPath.pop()
+
+        currentPath.push(rowName)
+
+        doxListObj[currentPath.toString().replace(/[,]/g,".")] = url
+    }
+ })
+}
 
 importString = `com/idacs/weblib/UpdateRoutine.java:import com.idgs.dbobjects.DbObject;
 com/idacs/weblib/DBr.java:import com.idgs.admin.SiteLogic;

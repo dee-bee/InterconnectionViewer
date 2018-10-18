@@ -12,7 +12,9 @@ var force
 var flareImportJson
 //Load the json data file
 var defaultImportFilename = "data/x48-imports.json"
+var defaultDoxyPath = ""
 var importFilename
+var doxyPath
 
 function getUrlParam(parameter, defaultvalue){
     var urlparameter = defaultvalue;
@@ -33,6 +35,17 @@ function getUrlVars() {
 
 $( document ).ready(function() {
   importFilename = getUrlParam('dataFile',defaultImportFilename);
+
+  switch(window.location.hostname){
+	case "localhost":
+		defaultDoxyPath = "../Link%20to%20DoxygenProjects/DoxOutput/IdACS/html/"
+		break;
+	default:
+		defaultDoxyPath = "../DoxOutput/IdACS/html/"
+  }
+  
+
+  doxyPath = getUrlParam('doxyPath',defaultDoxyPath)
 
   d3.json(importFilename, parseJson )
 
@@ -440,7 +453,7 @@ function build(){
         .attr("r", "12px")
 
     node.append("a")
-    	.attr("xlink:href", function(d) { return d.url; } )
+    	.attr("xlink:href", function(d) { return doxyPath + d.url; } )
     	.attr("from_calls", function(d) { //Had to do this because css selector
     								   //  a:not([href]) doesn't work
     								   //  a:[href~=http] doesn't work either!
