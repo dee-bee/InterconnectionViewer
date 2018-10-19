@@ -1,0 +1,3006 @@
+[
+  {
+    "name": "com.idacs.weblib.InitRoutine",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.*",
+      "com.idacs.weblib.DBr.db"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idacs.weblib.InitRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idacs.weblib.InitRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.DBr.db",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "df/d5e/classcom_1_1idacs_1_1weblib_1_1_init_routine.html",
+    "importsWeights": [
+      1,
+      1
+    ],
+    "x": 1500,
+    "y": 1350
+  },
+  {
+    "name": "com.idacs.weblib.Constants.*",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "undefined",
+    "importsWeights": [],
+    "x": 836.4324276296225,
+    "y": 1236.283426075764,
+    "fixed": true
+  },
+  {
+    "name": "com.idacs.weblib.DBr.db",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "undefined",
+    "importsWeights": [],
+    "x": 1047.2917428553235,
+    "y": 1137.2711262303956
+  },
+  {
+    "name": "com.idacs.weblib.ServerBackendRoutine",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.*",
+      "com.idacs.weblib.DBr.db"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idacs.weblib.ServerBackendRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idacs.weblib.ServerBackendRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.DBr.db",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "d3/d50/classcom_1_1idacs_1_1weblib_1_1_server_backend_routine.html",
+    "importsWeights": [
+      1,
+      1
+    ],
+    "x": 809.9494207746417,
+    "y": 646.9191365038255
+  },
+  {
+    "name": "com.idacs.weblib.EncryptionRoutine",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.*"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idacs.weblib.EncryptionRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "df/d06/classcom_1_1idacs_1_1weblib_1_1_encryption_routine.html",
+    "importsWeights": [
+      1
+    ],
+    "x": 758.9821215143307,
+    "y": 1085.1004736099712,
+    "fixed": true
+  },
+  {
+    "name": "com.idacs.weblib.YsUtils",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.*",
+      "com.idacs.weblib.DBr.db"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idacs.weblib.YsUtils",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idacs.weblib.YsUtils",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.DBr.db",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "dd/d14/classcom_1_1idacs_1_1weblib_1_1_ys_utils.html",
+    "importsWeights": [
+      1,
+      1
+    ],
+    "x": 873.4751963704468,
+    "y": 1481.9107923553076,
+    "fixed": true
+  },
+  {
+    "name": "com.idacs.weblib.IdCompleteRestCalls",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.LOGGER",
+      "com.idacs.weblib.Constants.TXT_ERR"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idacs.weblib.IdCompleteRestCalls",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.LOGGER",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idacs.weblib.IdCompleteRestCalls",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.TXT_ERR",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "de/d3a/classcom_1_1idacs_1_1weblib_1_1_id_complete_rest_calls.html",
+    "importsWeights": [
+      1,
+      1
+    ],
+    "x": 2240.816986747542,
+    "y": 862.8181012673837
+  },
+  {
+    "name": "com.idacs.weblib.Constants.LOGGER",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "undefined",
+    "importsWeights": [],
+    "x": 1769.9111125990803,
+    "y": 916.494847117981,
+    "fixed": true
+  },
+  {
+    "name": "com.idacs.weblib.Constants.TXT_ERR",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "undefined",
+    "importsWeights": [],
+    "x": 2860.673609243132,
+    "y": 634.0268548318791
+  },
+  {
+    "name": "com.idacs.weblib.UpdateRoutine",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.*"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idacs.weblib.UpdateRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "dd/d30/classcom_1_1idacs_1_1weblib_1_1_update_routine.html",
+    "importsWeights": [
+      1
+    ],
+    "x": 66.98884306383718,
+    "y": 1033.6055801709765
+  },
+  {
+    "name": "com.idacs.weblib.DBr",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.*",
+      "com.idacs.weblib.DBr.db"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idacs.weblib.DBr",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idacs.weblib.DBr",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.DBr.db",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "dd/d12/classcom_1_1idacs_1_1weblib_1_1_d_br.html",
+    "importsWeights": [
+      1,
+      1
+    ],
+    "x": 1435.8614351105807,
+    "y": 1698.771496224853,
+    "fixed": true
+  },
+  {
+    "name": "com.idacs.weblib.Common",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.*",
+      "com.idacs.weblib.DBr.db"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idacs.weblib.Common",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idacs.weblib.Common",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.DBr.db",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "df/d26/classcom_1_1idacs_1_1weblib_1_1_common.html",
+    "importsWeights": [
+      1,
+      1
+    ],
+    "x": 759.4015559472447,
+    "y": 1398.5915378932048
+  },
+  {
+    "name": "com.idacs.weblib.AsyncEmailMessage",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.*"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idacs.weblib.AsyncEmailMessage",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "d8/d1e/classcom_1_1idacs_1_1weblib_1_1_async_email_message.html",
+    "importsWeights": [
+      1
+    ],
+    "x": 450.4321475975596,
+    "y": 1690.0587441193836
+  },
+  {
+    "name": "com.idacs.weblib.ZZZTemplate",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.*",
+      "com.idacs.weblib.DBr.db"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idacs.weblib.ZZZTemplate",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idacs.weblib.ZZZTemplate",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.DBr.db",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "d6/d25/classcom_1_1idacs_1_1weblib_1_1_z_z_z_template.html",
+    "importsWeights": [
+      1,
+      1
+    ],
+    "x": 604.5932763332055,
+    "y": 786.5838748739989
+  },
+  {
+    "name": "com.idacs.weblib.YsResultSet",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.*"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idacs.weblib.YsResultSet",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "d6/dde/classcom_1_1idacs_1_1weblib_1_1_ys_result_set.html",
+    "importsWeights": [
+      1
+    ],
+    "x": 1322.0582730235597,
+    "y": 864.7915314558131
+  },
+  {
+    "name": "com.idacs.weblib.BrivoAdmCreds",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.*"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idacs.weblib.BrivoAdmCreds",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "d5/d89/classcom_1_1idacs_1_1weblib_1_1_brivo_adm_creds.html",
+    "importsWeights": [
+      1
+    ],
+    "x": 289.1869356188472,
+    "y": 1721.200160073779
+  },
+  {
+    "name": "com.idacs.weblib.DigiSign",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.*",
+      "com.idacs.weblib.DBr.db"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idacs.weblib.DigiSign",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idacs.weblib.DigiSign",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.DBr.db",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "d3/d5d/classcom_1_1idacs_1_1weblib_1_1_digi_sign.html",
+    "importsWeights": [
+      1,
+      1
+    ],
+    "x": 541.8634679972065,
+    "y": 903.6622877265204
+  },
+  {
+    "name": "com.idacs.weblib.IdCompleteAdminCreds",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.LOGGER"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idacs.weblib.IdCompleteAdminCreds",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.LOGGER",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "de/d96/classcom_1_1idacs_1_1weblib_1_1_id_complete_admin_creds.html",
+    "importsWeights": [
+      1
+    ],
+    "x": 2324.791822534664,
+    "y": 452.955737544143
+  },
+  {
+    "name": "com.idacs.weblib.SoapWrapper",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.*"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idacs.weblib.SoapWrapper",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "dd/d66/classcom_1_1idacs_1_1weblib_1_1_soap_wrapper.html",
+    "importsWeights": [
+      1
+    ],
+    "x": 248.3691323863462,
+    "y": 1519.5641145163154
+  },
+  {
+    "name": "com.idacs.weblib.ServiceUtils",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.*",
+      "com.idacs.weblib.DBr.db"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idacs.weblib.ServiceUtils",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idacs.weblib.ServiceUtils",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.DBr.db",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "d4/dbb/classcom_1_1idacs_1_1weblib_1_1_service_utils.html",
+    "importsWeights": [
+      1,
+      1
+    ],
+    "x": 1051.4057911209338,
+    "y": 1465.5435427996654
+  },
+  {
+    "name": "com.idacs.weblib.DbOperations",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.*"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idacs.weblib.DbOperations",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "da/d2c/classcom_1_1idacs_1_1weblib_1_1_db_operations.html",
+    "importsWeights": [
+      1
+    ],
+    "x": 229.49901879585462,
+    "y": 733.7089602253533
+  },
+  {
+    "name": "com.idacs.weblib.WebRoutine",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.*"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idacs.weblib.WebRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "d2/d23/classcom_1_1idacs_1_1weblib_1_1_web_routine.html",
+    "importsWeights": [
+      1
+    ],
+    "x": 543.2842557354713,
+    "y": 1869.389386400694
+  },
+  {
+    "name": "com.idacs.weblib.AdminLogic",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.*"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idacs.weblib.AdminLogic",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "db/d83/classcom_1_1idacs_1_1weblib_1_1_admin_logic.html",
+    "importsWeights": [
+      1
+    ],
+    "x": 91.60007058121559,
+    "y": 1188.3994455271877
+  },
+  {
+    "name": "com.idacs.weblib.UserRights",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.*"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idacs.weblib.UserRights",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "d4/d0f/classcom_1_1idacs_1_1weblib_1_1_user_rights.html",
+    "importsWeights": [
+      1
+    ],
+    "x": 1221.1834423374537,
+    "y": 908.5235088906792
+  },
+  {
+    "name": "com.qrcodegen.QrCodeGeneratorWorker",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.*"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.qrcodegen.QrCodeGeneratorWorker",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "d4/d77/classcom_1_1qrcodegen_1_1_qr_code_generator_worker.html",
+    "importsWeights": [
+      1
+    ],
+    "x": 143.49376533347595,
+    "y": 889.3869924758143
+  },
+  {
+    "name": "com.idacs_nt.service.CleanUp",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.LOGGER",
+      "com.idacs.weblib.DBr.db",
+      "com.idacs.weblib.YsResultSet"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idacs_nt.service.CleanUp",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.LOGGER",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idacs_nt.service.CleanUp",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.DBr.db",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idacs_nt.service.CleanUp",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.YsResultSet",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "de/d12/classcom_1_1idacs__nt_1_1service_1_1_clean_up.html",
+    "importsWeights": [
+      1,
+      1,
+      1
+    ],
+    "x": 1492.507676870028,
+    "y": 537.375075688646
+  },
+  {
+    "name": "com.idgs.testmethods.Tests",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.ServiceUtils",
+      "com.idacs.weblib.Constants.*"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.testmethods.Tests",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.ServiceUtils",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.testmethods.Tests",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "d3/dfa/classcom_1_1idgs_1_1testmethods_1_1_tests.html",
+    "importsWeights": [
+      1,
+      1
+    ],
+    "x": 443.23960048591914,
+    "y": 1351.5272158790062
+  },
+  {
+    "name": "com.idgs.admin.AuthRequestsRoutine",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.AsyncEmailMessage",
+      "com.idacs.weblib.Common",
+      "com.idacs.weblib.Common.getApiKeyByDescription",
+      "com.idacs.weblib.Constants.*",
+      "com.idacs.weblib.DBr.db",
+      "com.idacs.weblib.RequestBody",
+      "com.idacs.weblib.ServiceUtils",
+      "com.idacs.weblib.Constants.RIGHTBITMASK",
+      "com.idacs.weblib.Constants.SITEADMINMASK",
+      "com.idacs.weblib.Constants.SUPERADMINMASK",
+      "com.idacs.weblib.Constants.USER_DOCUMENTNO",
+      "com.idacs.weblib.Constants.USER_UINIDCOMPLETE",
+      "com.idacs.weblib.Constants.VISITORMASK",
+      "com.idacs.weblib.DBr",
+      "com.idacs.weblib.WebCallParameters",
+      "com.idacs.weblib.WebRoutine",
+      "com.idacs.weblib.YsUtils",
+      "com.idacs.weblib.AuthParameters.authUrlPrefix"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.admin.AuthRequestsRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.AsyncEmailMessage",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.AuthRequestsRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Common",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.AuthRequestsRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Common.getApiKeyByDescription",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.AuthRequestsRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.AuthRequestsRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.DBr.db",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.AuthRequestsRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.RequestBody",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.AuthRequestsRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.ServiceUtils",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.AuthRequestsRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.RIGHTBITMASK",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.AuthRequestsRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.SITEADMINMASK",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.AuthRequestsRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.SUPERADMINMASK",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.AuthRequestsRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.USER_DOCUMENTNO",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.AuthRequestsRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.USER_UINIDCOMPLETE",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.AuthRequestsRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.VISITORMASK",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.AuthRequestsRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.DBr",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.AuthRequestsRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.WebCallParameters",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.AuthRequestsRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.WebRoutine",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.AuthRequestsRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.YsUtils",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.AuthRequestsRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.AuthParameters.authUrlPrefix",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "d2/d31/classcom_1_1idgs_1_1admin_1_1_auth_requests_routine.html",
+    "importsWeights": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "x": 960.6470331099605,
+    "y": 1748.3736262662878
+  },
+  {
+    "name": "com.idacs.weblib.Common.getApiKeyByDescription",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "undefined",
+    "importsWeights": [],
+    "x": 1665.6137575974003,
+    "y": 1801.4273452235132
+  },
+  {
+    "name": "com.idacs.weblib.RequestBody",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "d6/ddb/classcom_1_1idacs_1_1weblib_1_1_request_body.html",
+    "importsWeights": [],
+    "x": 1518.936080030971,
+    "y": 1651.29659134142
+  },
+  {
+    "name": "com.idacs.weblib.Constants.RIGHTBITMASK",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "undefined",
+    "importsWeights": [],
+    "x": 811.5860326607673,
+    "y": 2508.494639953771
+  },
+  {
+    "name": "com.idacs.weblib.Constants.SITEADMINMASK",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "undefined",
+    "importsWeights": [],
+    "x": 1152.948319386932,
+    "y": 2465.365202577705
+  },
+  {
+    "name": "com.idacs.weblib.Constants.SUPERADMINMASK",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "undefined",
+    "importsWeights": [],
+    "x": 984.7368671961785,
+    "y": 2513.1316193688976
+  },
+  {
+    "name": "com.idacs.weblib.Constants.USER_DOCUMENTNO",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "undefined",
+    "importsWeights": [],
+    "x": 488.62503130405156,
+    "y": 2313.7420828186964
+  },
+  {
+    "name": "com.idacs.weblib.Constants.USER_UINIDCOMPLETE",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "undefined",
+    "importsWeights": [],
+    "x": 635.5648229478356,
+    "y": 2453.30585302547
+  },
+  {
+    "name": "com.idacs.weblib.Constants.VISITORMASK",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "undefined",
+    "importsWeights": [],
+    "x": 1481.7696368035704,
+    "y": 1878.6096379515175,
+    "fixed": true
+  },
+  {
+    "name": "com.idacs.weblib.WebCallParameters",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "d8/dc8/classcom_1_1idacs_1_1weblib_1_1_web_call_parameters.html",
+    "importsWeights": [],
+    "x": 792.217525480759,
+    "y": 2239.508464500903
+  },
+  {
+    "name": "com.idacs.weblib.AuthParameters.authUrlPrefix",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "undefined",
+    "importsWeights": [],
+    "x": 591.6258943065337,
+    "y": 1491.4600836995853
+  },
+  {
+    "name": "com.idgs.admin.AuthWrapper",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Common",
+      "com.idacs.weblib.Constants.*",
+      "com.idacs.weblib.*",
+      "com.idacs.weblib.AuthParameters.authUrlPrefix"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.admin.AuthWrapper",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Common",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.AuthWrapper",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.AuthWrapper",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.AuthWrapper",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.AuthParameters.authUrlPrefix",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "db/db9/classcom_1_1idgs_1_1admin_1_1_auth_wrapper.html",
+    "importsWeights": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "x": 422.1695261168466,
+    "y": 1017.5541738954191
+  },
+  {
+    "name": "com.idacs.weblib.*",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "undefined",
+    "importsWeights": [],
+    "x": 885.9289936460743,
+    "y": 474.66496149996857
+  },
+  {
+    "name": "com.idgs.admin.BrivoWrapper",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.*",
+      "com.idacs.weblib.DBr",
+      "com.idacs.weblib.ServiceUtils",
+      "com.idacs.weblib.WebCallParameters",
+      "com.idacs.weblib.WebRoutine",
+      "com.idacs.weblib.YsUtils"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.admin.BrivoWrapper",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.BrivoWrapper",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.DBr",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.BrivoWrapper",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.ServiceUtils",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.BrivoWrapper",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.WebCallParameters",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.BrivoWrapper",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.WebRoutine",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.BrivoWrapper",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.YsUtils",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "dc/d8b/classcom_1_1idgs_1_1admin_1_1_brivo_wrapper.html",
+    "importsWeights": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "x": 892.8289795206874,
+    "y": 1853.6137865566222
+  },
+  {
+    "name": "com.idgs.admin.BrivoRoutine",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.*",
+      "com.idacs.weblib.DBr",
+      "com.idacs.weblib.RequestBody",
+      "com.idacs.weblib.ServiceUtils",
+      "com.idacs.weblib.WebCallParameters",
+      "com.idacs.weblib.WebRoutine"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.admin.BrivoRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.BrivoRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.DBr",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.BrivoRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.RequestBody",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.BrivoRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.ServiceUtils",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.BrivoRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.WebCallParameters",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.BrivoRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.WebRoutine",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "d9/dde/classcom_1_1idgs_1_1admin_1_1_brivo_routine.html",
+    "importsWeights": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "x": 1030.377797927157,
+    "y": 1899.4105570175557
+  },
+  {
+    "name": "com.idgs.admin.SiteLogic",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.RequestBody",
+      "com.idacs.weblib.Common",
+      "com.idacs.weblib.Constants.*",
+      "com.idacs.weblib.DBr",
+      "com.idacs.weblib.DBr.db",
+      "com.idacs.weblib.ServiceUtils",
+      "com.idacs.weblib.YsResultSet",
+      "com.idacs.weblib.Constants.SITE_NAME",
+      "com.idacs.weblib.Constants.SUBSITES",
+      "com.idacs.weblib.Constants.VISITORMASK",
+      "com.idacs.weblib.UserRights",
+      "com.idacs.weblib.YsUtils",
+      "com.idacs.weblib.AuthParameters.authUrlPrefix"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.admin.SiteLogic",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.RequestBody",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.SiteLogic",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Common",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.SiteLogic",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.SiteLogic",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.DBr",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.SiteLogic",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.DBr.db",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.SiteLogic",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.ServiceUtils",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.SiteLogic",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.YsResultSet",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.SiteLogic",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.SITE_NAME",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.SiteLogic",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.SUBSITES",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.SiteLogic",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.VISITORMASK",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.SiteLogic",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.UserRights",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.SiteLogic",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.YsUtils",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.SiteLogic",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.AuthParameters.authUrlPrefix",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "de/d0f/classcom_1_1idgs_1_1admin_1_1_site_logic.html",
+    "importsWeights": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "x": 1231.7786397461637,
+    "y": 1400.131219175606
+  },
+  {
+    "name": "com.idacs.weblib.Constants.SITE_NAME",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "undefined",
+    "importsWeights": [],
+    "x": 1962.6473671965066,
+    "y": 1750.825268333738
+  },
+  {
+    "name": "com.idacs.weblib.Constants.SUBSITES",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "undefined",
+    "importsWeights": [],
+    "x": 2024.9333136510984,
+    "y": 1548.6957875007415
+  },
+  {
+    "name": "com.idgs.admin.UserRoutine",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Common",
+      "com.idacs.weblib.Constants.*",
+      "com.idacs.weblib.DBr",
+      "com.idacs.weblib.RequestBody",
+      "com.idacs.weblib.ServiceUtils"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.admin.UserRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Common",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.UserRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.UserRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.DBr",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.UserRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.RequestBody",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.admin.UserRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.ServiceUtils",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "d8/d25/classcom_1_1idgs_1_1admin_1_1_user_routine.html",
+    "importsWeights": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "x": 1086.0499719179231,
+    "y": 1682.3894202355834
+  },
+  {
+    "name": "com.idgs.qr.QRCode",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.*"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.qr.QRCode",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "d6/d46/classcom_1_1idgs_1_1qr_1_1_q_r_code.html",
+    "importsWeights": [
+      1
+    ],
+    "x": 50.08700769953363,
+    "y": 1354.1887380028725
+  },
+  {
+    "name": "com.idgs.dbobjects.AccessPointGroup",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.ENTITY_ACCESSPOINTGROUP"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.dbobjects.AccessPointGroup",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.ENTITY_ACCESSPOINTGROUP",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "d5/dac/classcom_1_1idgs_1_1dbobjects_1_1_access_point_group.html",
+    "importsWeights": [
+      1
+    ],
+    "x": 5096.521966942642,
+    "y": 961.4185939780372
+  },
+  {
+    "name": "com.idacs.weblib.Constants.ENTITY_ACCESSPOINTGROUP",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "undefined",
+    "importsWeights": [],
+    "x": 5114.995446732955,
+    "y": 1308.846763698793
+  },
+  {
+    "name": "com.idgs.dbobjects.Attribute",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.EncryptionRoutine"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.dbobjects.Attribute",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.EncryptionRoutine",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "dd/d75/classcom_1_1idgs_1_1dbobjects_1_1_attribute.html",
+    "importsWeights": [
+      1
+    ],
+    "x": 246.48757514273075,
+    "y": 295.81161762692807
+  },
+  {
+    "name": "com.idgs.dbobjects.SecurityGroup",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.ENTITY_SECURITYGROUP"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.dbobjects.SecurityGroup",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.ENTITY_SECURITYGROUP",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "df/dc5/classcom_1_1idgs_1_1dbobjects_1_1_security_group.html",
+    "importsWeights": [
+      1
+    ],
+    "x": 4495.105322795209,
+    "y": 3438.8134513597543
+  },
+  {
+    "name": "com.idacs.weblib.Constants.ENTITY_SECURITYGROUP",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "undefined",
+    "importsWeights": [],
+    "x": 4671.649640347096,
+    "y": 3138.0092122647256
+  },
+  {
+    "name": "com.idgs.dbobjects.BeaconGroup",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.ENTITY_BEACONGROUP"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.dbobjects.BeaconGroup",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.ENTITY_BEACONGROUP",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "dd/d1b/classcom_1_1idgs_1_1dbobjects_1_1_beacon_group.html",
+    "importsWeights": [
+      1
+    ],
+    "x": -381.5158687981292,
+    "y": -2048.7644035133458
+  },
+  {
+    "name": "com.idacs.weblib.Constants.ENTITY_BEACONGROUP",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "undefined",
+    "importsWeights": [],
+    "x": -59.28282260313722,
+    "y": -2189.4523517293646
+  },
+  {
+    "name": "com.idgs.dbobjects.Site",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.SET_ANYSET",
+      "com.idacs.weblib.DBr"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.dbobjects.Site",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.SET_ANYSET",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.dbobjects.Site",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.DBr",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "db/d22/classcom_1_1idgs_1_1dbobjects_1_1_site.html",
+    "importsWeights": [
+      1,
+      1
+    ],
+    "x": 1281.5061363406567,
+    "y": 1504.1975259965193,
+    "fixed": true
+  },
+  {
+    "name": "com.idacs.weblib.Constants.SET_ANYSET",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "undefined",
+    "importsWeights": [],
+    "x": 1770.08867330667,
+    "y": 2067.9042575304848,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.dbobjects.CustomerCategory",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.SET_ANYSET"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.dbobjects.CustomerCategory",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.SET_ANYSET",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "d1/d08/classcom_1_1idgs_1_1dbobjects_1_1_customer_category.html",
+    "importsWeights": [
+      1
+    ],
+    "x": 2322.386312643067,
+    "y": 2555.552296526984
+  },
+  {
+    "name": "com.idgs.dbobjects.EntityRelation",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.*",
+      "com.idacs.weblib.DBr.db",
+      "com.idacs.weblib.YsResultSet"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.dbobjects.EntityRelation",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.dbobjects.EntityRelation",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.DBr.db",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.dbobjects.EntityRelation",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.YsResultSet",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "d6/d14/classcom_1_1idgs_1_1dbobjects_1_1_entity_relation.html",
+    "importsWeights": [
+      1,
+      1,
+      1
+    ],
+    "x": 1110.4839419209814,
+    "y": 626.3714499139652
+  },
+  {
+    "name": "com.idgs.dbobjects.Transaction",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.*",
+      "com.idacs.weblib.DBr.db",
+      "com.idacs.weblib.YsResultSet"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.dbobjects.Transaction",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.dbobjects.Transaction",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.DBr.db",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.dbobjects.Transaction",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.YsResultSet",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "d9/d89/classcom_1_1idgs_1_1dbobjects_1_1_transaction.html",
+    "importsWeights": [
+      1,
+      1,
+      1
+    ],
+    "x": 993.010764334312,
+    "y": 657.9045221847189
+  },
+  {
+    "name": "com.idgs.dbobjects.DbGroupEntity",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.*",
+      "com.idacs.weblib.DBr",
+      "com.idacs.weblib.DBr.db",
+      "com.idacs.weblib.YsResultSet"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.dbobjects.DbGroupEntity",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.dbobjects.DbGroupEntity",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.DBr",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.dbobjects.DbGroupEntity",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.DBr.db",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.dbobjects.DbGroupEntity",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.YsResultSet",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "d2/ddc/classcom_1_1idgs_1_1dbobjects_1_1_db_group_entity.html",
+    "importsWeights": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "x": 1438.1156869058761,
+    "y": 1094.2522744010903
+  },
+  {
+    "name": "com.idgs.dbobjects.User",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.SET_ANYSET"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.dbobjects.User",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.SET_ANYSET",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "d8/d04/classcom_1_1idgs_1_1dbobjects_1_1_user.html",
+    "importsWeights": [
+      1
+    ],
+    "x": 2041.908733116713,
+    "y": 2438.875802821485,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.dbobjects.EntityRecordEntry",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.*",
+      "com.idacs.weblib.DBr.db"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.dbobjects.EntityRecordEntry",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.dbobjects.EntityRecordEntry",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.DBr.db",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "da/d32/classcom_1_1idgs_1_1dbobjects_1_1_entity_record_entry.html",
+    "importsWeights": [
+      1,
+      1
+    ],
+    "x": 696.9276685933443,
+    "y": 704.7616027832028
+  },
+  {
+    "name": "com.idgs.dbobjects.DbObject",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.*",
+      "com.idacs.weblib.DBr.db",
+      "com.idacs.weblib.YsResultSet",
+      "com.idacs.weblib.YsUtils"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.dbobjects.DbObject",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.dbobjects.DbObject",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.DBr.db",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.dbobjects.DbObject",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.YsResultSet",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.dbobjects.DbObject",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.YsUtils",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "d7/d4a/classcom_1_1idgs_1_1dbobjects_1_1_db_object.html",
+    "importsWeights": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "x": 857.3024479937827,
+    "y": 896.7295687063285
+  },
+  {
+    "name": "com.idgs.dbobjects.UserGroup",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.ENTITY_USERGROUP"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.dbobjects.UserGroup",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.ENTITY_USERGROUP",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "d8/d24/classcom_1_1idgs_1_1dbobjects_1_1_user_group.html",
+    "importsWeights": [
+      1
+    ],
+    "x": 4131.228761068871,
+    "y": -1219.4113443232911
+  },
+  {
+    "name": "com.idacs.weblib.Constants.ENTITY_USERGROUP",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "undefined",
+    "importsWeights": [],
+    "x": 4354.697498358479,
+    "y": -948.5726466795344
+  },
+  {
+    "name": "com.idgs.binarytree.BinaryTree",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.*"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.binarytree.BinaryTree",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "d6/d99/classcom_1_1idgs_1_1binarytree_1_1_binary_tree.html",
+    "importsWeights": [
+      1
+    ],
+    "x": 395.45135645274365,
+    "y": 583.2167572542654
+  },
+  {
+    "name": "com.idgs.mt2.IDCompleteOps27",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.*",
+      "com.idacs.weblib.DBr",
+      "com.idacs.weblib.SoapWrapper",
+      "com.idacs.weblib.ServiceUtils",
+      "com.idacs.weblib.YsUtils"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.mt2.IDCompleteOps27",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.IDCompleteOps27",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.DBr",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.IDCompleteOps27",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.SoapWrapper",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.IDCompleteOps27",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.ServiceUtils",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.IDCompleteOps27",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.YsUtils",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "d6/da2/classcom_1_1idgs_1_1mt2_1_1_i_d_complete_ops27.html",
+    "importsWeights": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "x": 746.6604073442559,
+    "y": 1694.5736899423412
+  },
+  {
+    "name": "com.idgs.mt2.AuthThread",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.*",
+      "com.idacs.weblib.DBr",
+      "com.idacs.weblib.DBr.db",
+      "com.idacs.weblib.ServiceUtils",
+      "com.idacs.weblib.YsResultSet",
+      "com.idacs.weblib.YsUtils"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.mt2.AuthThread",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.AuthThread",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.DBr",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.AuthThread",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.DBr.db",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.AuthThread",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.ServiceUtils",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.AuthThread",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.YsResultSet",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.AuthThread",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.YsUtils",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "d0/d4c/classcom_1_1idgs_1_1mt2_1_1_auth_thread.html",
+    "importsWeights": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "x": 1270.7530777333793,
+    "y": 1290.2678580504032
+  },
+  {
+    "name": "com.idgs.mt2.ListsNT",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.DBr.db",
+      "com.idacs.weblib.ServiceUtils",
+      "com.idacs.weblib.YsResultSet",
+      "com.idacs.weblib.Constants.*",
+      "com.idacs.weblib.*"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.mt2.ListsNT",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.DBr.db",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.ListsNT",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.ServiceUtils",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.ListsNT",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.YsResultSet",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.ListsNT",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.ListsNT",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "db/d20/classcom_1_1idgs_1_1mt2_1_1_lists_n_t.html",
+    "importsWeights": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "x": 1000.0431745184125,
+    "y": 847.3505770360117
+  },
+  {
+    "name": "com.idgs.mt2.SiteType4Routine",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.*",
+      "com.idacs.weblib.DBr",
+      "com.idacs.weblib.RequestBody",
+      "com.idacs.weblib.ServiceUtils"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.mt2.SiteType4Routine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.SiteType4Routine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.DBr",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.SiteType4Routine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.RequestBody",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.SiteType4Routine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.ServiceUtils",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "df/da0/classcom_1_1idgs_1_1mt2_1_1_site_type4_routine.html",
+    "importsWeights": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "x": 1140.7340046648183,
+    "y": 1837.8275505163956
+  },
+  {
+    "name": "com.idgs.mt2.UnlockRoutineMT2",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.*",
+      "com.idacs.weblib.DBr",
+      "com.idacs.weblib.RequestBody",
+      "com.idacs.weblib.ServiceUtils",
+      "com.idacs.weblib.YsUtils.getTblData"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.mt2.UnlockRoutineMT2",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.UnlockRoutineMT2",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.DBr",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.UnlockRoutineMT2",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.RequestBody",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.UnlockRoutineMT2",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.ServiceUtils",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.UnlockRoutineMT2",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.YsUtils.getTblData",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "dd/d2e/classcom_1_1idgs_1_1mt2_1_1_unlock_routine_m_t2.html",
+    "importsWeights": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "x": 1234.502717843687,
+    "y": 1922.3496220965312
+  },
+  {
+    "name": "com.idacs.weblib.YsUtils.getTblData",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "undefined",
+    "importsWeights": [],
+    "x": 1452.6267420386246,
+    "y": 2466.968437092169,
+    "fixed": true
+  },
+  {
+    "name": "com.idgs.mt2.CommonAdminRoutine",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Common.getApiKeyByDescription",
+      "com.idacs.weblib.RequestBody",
+      "com.idacs.weblib.ServiceUtils",
+      "com.idacs.weblib.Constants.*",
+      "com.idacs.weblib.DBr",
+      "com.idacs.weblib.DBr.db",
+      "com.idacs.weblib.IdCompleteRestCalls",
+      "com.idacs.weblib.VarVerification",
+      "com.idacs.weblib.YsResultSet",
+      "com.idacs.weblib.UserRights"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.mt2.CommonAdminRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Common.getApiKeyByDescription",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonAdminRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.RequestBody",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonAdminRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.ServiceUtils",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonAdminRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonAdminRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.DBr",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonAdminRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.DBr.db",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonAdminRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.IdCompleteRestCalls",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonAdminRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.VarVerification",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonAdminRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.YsResultSet",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonAdminRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.UserRights",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "de/db1/classcom_1_1idgs_1_1mt2_1_1_common_admin_routine.html",
+    "importsWeights": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "x": 1524.304188829064,
+    "y": 1217.8312406621426
+  },
+  {
+    "name": "com.idacs.weblib.VarVerification",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "dc/dcd/classcom_1_1idacs_1_1weblib_1_1_var_verification.html",
+    "importsWeights": [],
+    "x": 1859.9167571159294,
+    "y": 1069.9861777472308
+  },
+  {
+    "name": "com.idgs.mt2.ApplicationID",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.LOGGER",
+      "com.idacs.weblib.ServiceUtils"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.mt2.ApplicationID",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.LOGGER",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.ApplicationID",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.ServiceUtils",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "d2/d12/classcom_1_1idgs_1_1mt2_1_1_application_i_d.html",
+    "importsWeights": [
+      1,
+      1
+    ],
+    "x": 1829.1176767460793,
+    "y": 1320.311831392331
+  },
+  {
+    "name": "com.idgs.mt2.BulkUserUploadWorker",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.DBr",
+      "com.idacs.weblib.Constants.*",
+      "com.idacs.weblib.ServiceUtils",
+      "com.idacs.weblib.RequestBody"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.mt2.BulkUserUploadWorker",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.DBr",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.BulkUserUploadWorker",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.BulkUserUploadWorker",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.ServiceUtils",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.BulkUserUploadWorker",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.RequestBody",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "d0/dc7/classcom_1_1idgs_1_1mt2_1_1_bulk_user_upload_worker.html",
+    "importsWeights": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "x": 1203.1179340410888,
+    "y": 1748.7363803586304
+  },
+  {
+    "name": "com.idgs.mt2.v27routine.IdAcs27Routine",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.*",
+      "com.idacs.weblib.DBr",
+      "com.idacs.weblib.VarVerification",
+      "com.idacs.weblib.DBr.db",
+      "com.idacs.weblib.RequestBody",
+      "com.idacs.weblib.ServiceUtils",
+      "com.idacs.weblib.YsResultSet",
+      "com.idacs.weblib.Constants.TS_TRANSACTIONSTATUSID",
+      "com.idacs.weblib.YsUtils"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.mt2.v27routine.IdAcs27Routine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.v27routine.IdAcs27Routine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.DBr",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.v27routine.IdAcs27Routine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.VarVerification",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.v27routine.IdAcs27Routine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.DBr.db",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.v27routine.IdAcs27Routine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.RequestBody",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.v27routine.IdAcs27Routine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.ServiceUtils",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.v27routine.IdAcs27Routine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.YsResultSet",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.v27routine.IdAcs27Routine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.TS_TRANSACTIONSTATUSID",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.v27routine.IdAcs27Routine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.YsUtils",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "d5/de6/classcom_1_1idgs_1_1mt2_1_1v27routine_1_1_id_acs27_routine.html",
+    "importsWeights": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "x": 1380.6196887491858,
+    "y": 1339.6479161183784
+  },
+  {
+    "name": "com.idacs.weblib.Constants.TS_TRANSACTIONSTATUSID",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "undefined",
+    "importsWeights": [],
+    "x": 2188.1034566733683,
+    "y": 1300.72608220302
+  },
+  {
+    "name": "com.idgs.mt2.v26routine.BrivoMT",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.BrivoAdmCreds",
+      "com.idacs.weblib.BrivoAdmCreds.apiKey",
+      "com.idacs.weblib.Constants.*",
+      "com.idacs.weblib.DBr",
+      "com.idacs.weblib.ServiceUtils",
+      "com.idacs.weblib.WebCallParameters",
+      "com.idacs.weblib.WebRoutine",
+      "com.idacs.weblib.YsUtils"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.mt2.v26routine.BrivoMT",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.BrivoAdmCreds",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.v26routine.BrivoMT",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.BrivoAdmCreds.apiKey",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.v26routine.BrivoMT",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.v26routine.BrivoMT",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.DBr",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.v26routine.BrivoMT",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.ServiceUtils",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.v26routine.BrivoMT",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.WebCallParameters",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.v26routine.BrivoMT",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.WebRoutine",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.v26routine.BrivoMT",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.YsUtils",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "d8/d51/classcom_1_1idgs_1_1mt2_1_1v26routine_1_1_brivo_m_t.html",
+    "importsWeights": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "x": 781.5669383737135,
+    "y": 1829.1860893772987
+  },
+  {
+    "name": "com.idacs.weblib.BrivoAdmCreds.apiKey",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "undefined",
+    "importsWeights": [],
+    "x": 230.70606458636303,
+    "y": 2384.512277420212
+  },
+  {
+    "name": "com.idgs.mt2.CommonRoutineMT2",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Common",
+      "com.idacs.weblib.Constants",
+      "com.idacs.weblib.Constants.*",
+      "com.idacs.weblib.DBr",
+      "com.idacs.weblib.VarVerification",
+      "com.idacs.weblib.DBr.db",
+      "com.idacs.weblib.RequestBody",
+      "com.idacs.weblib.ServiceUtils",
+      "com.idacs.weblib.YsResultSet",
+      "com.idacs.weblib.YsUtils",
+      "com.idacs.weblib.*"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.mt2.CommonRoutineMT2",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Common",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonRoutineMT2",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonRoutineMT2",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonRoutineMT2",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.DBr",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonRoutineMT2",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.VarVerification",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonRoutineMT2",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.DBr.db",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonRoutineMT2",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.RequestBody",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonRoutineMT2",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.ServiceUtils",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonRoutineMT2",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.YsResultSet",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonRoutineMT2",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.YsUtils",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.CommonRoutineMT2",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "d6/d2e/classcom_1_1idgs_1_1mt2_1_1_common_routine_m_t2.html",
+    "importsWeights": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "x": 1264.1114593643124,
+    "y": 1148.9922006143593
+  },
+  {
+    "name": "com.idacs.weblib.Constants",
+    "size": 7000,
+    "imports": [],
+    "fromTo": [],
+    "url": "dc/d6f/classcom_1_1idacs_1_1weblib_1_1_constants.html",
+    "importsWeights": [],
+    "x": 1758.394185802798,
+    "y": 507.46137210827806
+  },
+  {
+    "name": "com.idgs.mt2.IdCompleteAdminCreds",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.LOGGER",
+      "com.idacs.weblib.ServiceUtils"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.mt2.IdCompleteAdminCreds",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.LOGGER",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.IdCompleteAdminCreds",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.ServiceUtils",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "d9/d63/classcom_1_1idgs_1_1mt2_1_1_id_complete_admin_creds.html",
+    "importsWeights": [
+      1,
+      1
+    ],
+    "x": 1533.8470321480581,
+    "y": 800.8161844290426
+  },
+  {
+    "name": "com.idgs.mt2.listroutine.ListUsersRoutine",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.*",
+      "com.idacs.weblib.DBr",
+      "com.idacs.weblib.DBr.db",
+      "com.idacs.weblib.ServiceUtils",
+      "com.idacs.weblib.YsResultSet",
+      "com.idacs.weblib.YsUtils"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.mt2.listroutine.ListUsersRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.listroutine.ListUsersRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.DBr",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.listroutine.ListUsersRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.DBr.db",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.listroutine.ListUsersRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.ServiceUtils",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.listroutine.ListUsersRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.YsResultSet",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.listroutine.ListUsersRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.YsUtils",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "df/d84/classcom_1_1idgs_1_1mt2_1_1listroutine_1_1_list_users_routine.html",
+    "importsWeights": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "x": 1194.2385180643118,
+    "y": 1240.203684675511
+  },
+  {
+    "name": "com.idgs.mt2.RevokeRoutine",
+    "size": 7000,
+    "imports": [
+      "com.idacs.weblib.Constants.*",
+      "com.idacs.weblib.DBr",
+      "com.idacs.weblib.DBr.db",
+      "com.idacs.weblib.RequestBody",
+      "com.idacs.weblib.ServiceUtils",
+      "com.idacs.weblib.YsResultSet"
+    ],
+    "fromTo": [
+      {
+        "sourceFile": "com.idgs.mt2.RevokeRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.Constants.*",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.RevokeRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.DBr",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.RevokeRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.DBr.db",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.RevokeRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.RequestBody",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.RevokeRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.ServiceUtils",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      },
+      {
+        "sourceFile": "com.idgs.mt2.RevokeRoutine",
+        "sourceFuncUrl": "na",
+        "sourceFuncName": "na",
+        "destinationFile": "com.idacs.weblib.YsResultSet",
+        "destinationFuncUrl": "na",
+        "destinationFuncName": "na"
+      }
+    ],
+    "url": "d1/dca/classcom_1_1idgs_1_1mt2_1_1_revoke_routine.html",
+    "importsWeights": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "x": 1396.6901673957213,
+    "y": 1234.5483023793863
+  }
+]
